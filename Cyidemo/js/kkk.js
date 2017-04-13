@@ -5,13 +5,11 @@
 Cyi.add('kkk', function (lll,pkl) {
     var locak = {
         lolo: function () {
-            console.log('this is kkk!!!');
-            console.log(lll.name)
-            console.log(pkl)
+
+            console.log(lll.name);
+            console.log(pkl.name)
         },
-        showl:function(){
-            console.log(159)
-        }
+        showName:'this is KKK'
     }
     return locak;
 },['lll','pkl'])
