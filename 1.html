@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../css/cyslide.css" rel="stylesheet"/>
+    <script src="Cyi.js"></script>
+    <script src="jq.js"></script>
+</head>
+<body>
+<div class="box">
+    <ul id="slidebox">
+        <li class="slide nowslide">
+            <img src="../images/slide1.jpg"/>
+        </li>
+        <li class="slide">
+            <img src="../images/slide2.jpg"/>
+        </li>
+        <li class="slide">
+            <img src="../images/slide3.jpg"/>
+        </li>
+        <li class="slide">
+            <img src="../images/slide4.jpg"/>
+        </li>
+    </ul>
+</div>
+
+</body>
+
+<script>
+    Cyi.use('cyslide', function (slide) {
+        slide._slide('#slidebox', '.slide', 5000);
+    })
+    Cyi.use('222',function(loca){
+        loca.usek()
+    })
+</script>
+
+</html>
